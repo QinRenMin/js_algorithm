@@ -18,14 +18,14 @@ function bubbleSort3(arr) {
                 posHigh = j;
             }
         }
-        high  = posHigh; //high值向前移动一位
+        high  = posHigh;
         for (let i = high; i > low; i--){
             if(arr[i] < arr[i-1]){
                 [arr[i-1],arr[i]] = [arr[i],arr[i-1]];
                 posLow = i;
             }
         }
-        low = posLow; //low值向前移动一位
+        low = posLow;
         // console.log(arr);
     }
     return arr;
