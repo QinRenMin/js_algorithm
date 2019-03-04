@@ -20,7 +20,7 @@ function bubbleSort3(arr) {
                 [arr[i-1],arr[i]] = [arr[i],arr[i-1]];
             }
         }
-        low++; //low值向前移动一位
+        low++; //low值向后移动一位
         console.log(arr);
     }
     return arr;
